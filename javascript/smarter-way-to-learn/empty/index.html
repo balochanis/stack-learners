@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <header>
+            <h1>Universal Calculator</h1>
+        </header>
+
+        <div id="main-content">
+            <div id="time-calculator">
+                <h2>Time Calculator</h2>
+                <label for="start-date">Start Date:
+                    <input type="date" name="start-date" id="start-date" value="1992-12-29">
+                </label>
+                <label for="end-date">End Date:
+                    <input type="date" name="end-date" id="end-date" value="2020-07-02">
+                </label>
+                <button onclick="calcTime()">Calculate</button>
+
+                <table>
+                    <tr>
+                        <th>Total Years:</th>
+                        <td>years</td>
+                    </tr>
+
+                    <tr>
+                        <th>Total Months:</th>
+                        <td>months</td>
+                    </tr>
+                    <tr>
+                        <th>Total Days:</th>
+                        <td>days</td>
+                    </tr>
+                    <tr>
+                        <th>Total Weeks:</th>
+                        <td>weeks</td>
+                    </tr>
+                    <tr>
+                        <th>Total Days:</th>
+                        <td>days</td>
+                    </tr>
+                    <tr>
+                        <th>Total Hours:</th>
+                        <td>hours</td>
+                    </tr>
+                    <tr>
+                        <th>Total Minutes:</th>
+                        <td>minutes</td>
+                    </tr>
+                    <tr>
+                        <th>Total Seconds:</th>
+                        <td>seconds</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+</html>

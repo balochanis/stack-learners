@@ -1,0 +1,29 @@
+#wrapper
+{
+    width: 400px;
+}
+#calc-contain{
+    position: relative;
+    margin: 0px auto;
+    padding: 20px 20px 100px 20px;
+  }
+
+
+  input[type=button] {
+      width: 50px;
+      height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+
+
+  input[type = text] {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+  }

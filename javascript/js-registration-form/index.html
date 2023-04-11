@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Create Account</h1>
+        </header>
+
+        <ul id="registration-form">
+            <li>
+                <label for="user-email">Email Address:</label>
+            </li>
+            <li>
+                <input type="text" name="user-email" id="user-email" placeholder="Email Address" />
+            </li>
+            <li>
+                <label for="user-pass">Password:</label>
+            </li>
+            <li>
+                <input type="password" name="user-pass" id="user-pass" placeholder="Password" />
+            </li>
+            <li>
+                <label for="confirm-user-pass">Confirm Password:</label>
+            </li>
+            <li><input type="password" name="confirm-user-pass" id="confirm-user-pass" placeholder="Confirm Password" />
+            </li>
+
+
+            <li><button class="btn submit" onclick="registerUser()">Create Account</button></li>
+            <li><button class="btn fb-signup">Signup with Facebook</button></li>
+        </ul>
+
+
+    </div>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</body>
+
+</html>

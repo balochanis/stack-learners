@@ -1,0 +1,46 @@
+#wrapper
+{
+    width: 600px;
+    margin: 0 auto;
+}
+h1.title
+{
+    text-align: center;
+}
+
+.marksheet-form
+{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.marksheet-form ul
+{
+    list-style-type: none;
+}
+
+.marksheet-form ul li
+{
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.marksheet-form ul li label
+{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+
+.marksheet-form ul li input
+{
+    height: 26px;
+    padding-left: 10px;
+}
+
+.marksheet-form ul li button
+{
+    width: 150px;
+    height: 30px;
+}

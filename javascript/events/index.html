@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 onmouseover="changeStyle(this)">Welcome <span></span></h1>
+    <img src="bike1.jpg" alt="Bike Image" id="img" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"> 
+    
+    <p id="paraSample">This is a paragraph</p>
+    <input type="number" name="fontSize" id="fontSize" onchange="updatePara(this);"> -->
+    
+    <label for="username">username</label>
+    <input type="text" name="username" id="username" onfocus="changeStyle(this);" onblur="resetStyle(this);">
+    
+    <label for="password"  >password</label>
+    <input type="password" value="123132" id="password" onfocus="showPassword(this);" onblur="hidePassword(this)"> 
+    
+    
+    
+    <label for="cityName">City</label>
+    <input type="text" onblur="findProvince(this);">
+    <label for="province">Province</label>
+    <input type="text" name="province" id="province">
+    <p id="errorMsg"></p>
+
+    
+    
+    
+    <p onclick="addClasses(this);" class="borders" >this is a paragraph.</p>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

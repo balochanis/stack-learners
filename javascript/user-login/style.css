@@ -1,0 +1,64 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#wrapper
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.login-form
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.login-form
+{
+    list-style-type: none;
+}
+
+.login-form li
+{
+    margin: 20px;
+
+}
+
+.login-form label
+{
+    display: inline-block;
+    width: 150px;
+}
+
+.login-form li input
+{
+    height: 26px;
+    width: 200px;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.login-form li button
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form li button#loginBtn
+{
+    background-color: green;
+}
+
+.login-form li button#signupBtn
+{
+    background-color: blue;
+}

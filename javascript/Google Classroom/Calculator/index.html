@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <form name="calculator">
+            <input type="text" id="display"/>
+            <input type="button" value=" 1 " onclick="displayInput(1);" />
+            <input type="button" value=" 2 " onclick="displayInput(2);" />
+            <input type="button" value=" 3 " onclick="displayInput(3);" />
+            <input type="button" value=" + " onclick="calculator.display.value += '+'" />
+            <br/>
+            
+            <input type="button" value=" 4 " onclick="displayInput(4);" />
+            <input type="button" value=" 5 " onclick="displayInput(5);" />
+            <input type="button" value=" 6 " onclick="displayInput(6);" />
+            <input type="button" value=" - " onclick="calculator.display.value += '-'" />
+            </br>
+          
+            <input type="button" value=" 7 " onclick="displayInput(7);" />
+            <input type="button" value=" 8 " onclick="displayInput(8);" />
+            <input type="button" value=" 9 " onclick="displayInput(9);" />
+            <input type="button" value=" x " onclick="calculator.display.value += '*'" />
+            </br>
+        
+            <input type="button" value=" c " onclick="calculator.display.value = ''" />
+            <input type="button" value=" 0 " onclick="displayInput(0);" />
+            <input type="button" value=" = " onclick="calculator.display.value = eval(calculator.display.value)" />
+            <input type="button" value=" / " onclick="calculator.display.value += '/'" />
+            </br>
+        </form>
+        </div>
+        
+</body>
+<script src="script.js"></script>
+</html>

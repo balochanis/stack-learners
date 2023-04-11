@@ -1,0 +1,22 @@
+img
+{
+    height: 200px;
+    width: 200px;
+}
+
+
+#errorMsg
+{
+    color: red;
+    font-weight: bold;
+}
+
+.borders
+{
+    color: blue;
+}
+
+.beautiful
+{
+    background-color: green;
+}

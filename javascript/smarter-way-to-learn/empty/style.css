@@ -1,0 +1,22 @@
+#wrapper
+{
+    background-color: cornflowerblue;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header
+{
+    text-align: center;
+}
+
+table tr th
+{
+    text-align: left;
+}
+
+table tr th, td
+{
+    border: 1px solid black;
+    padding: 7px;
+}
